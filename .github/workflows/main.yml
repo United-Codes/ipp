@@ -1,7 +1,9 @@
 name: Sync Repo to GitLab
 
 on:
-  push
+  push:
+    branches:
+      - 'dev'
 
 jobs:
   sync:
