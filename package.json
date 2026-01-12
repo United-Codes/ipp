@@ -1,5 +1,5 @@
 {
-	"name": "ipp",
+	"name": "@united-codes/ipp",
 	"version": "2.0.2",
 	"description": "Internet Printing Protocol (IPP) for nodejs",
 	"keywords": [
@@ -24,6 +24,9 @@
 	"main": "ipp.js",
 	"engines": {
 		"node": ">4.0.0"
+	},
+	"publishConfig": {
+		"@united-codes:registry": "https://git.unitedcodes.com/api/v4/projects/26/packages/npm/"
 	},
 	"licenses": [
 		{
