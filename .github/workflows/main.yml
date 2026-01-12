@@ -1,9 +1,7 @@
 name: Sync Repo to GitLab
 
 on:
-  push:
-    branches:
-      - 'dev'
+  push
 
 jobs:
   sync:
@@ -17,4 +15,3 @@ jobs:
         gitlab_url: ${{ secrets.GITLAB_URL }}
         username: ${{ secrets.USERNAME }}
         gitlab_pat: ${{ secrets.PAT }}
-        force_push: true
