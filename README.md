@@ -142,3 +142,11 @@ See [this thread](https://github.com/williamkapke/ipp/issues/3)
 ## License
 
 MIT
+
+## Linting and formatting
+
+ESLint uses the same rules as AOP (`eslint.config.js`).
+
+- In VSCode, install the recommended ESLint extension: saving a file formats it with ESLint.
+- Existing code is not reformatted in bulk. When you change a file, fix its ESLint errors; `npm run fix -- <file>` applies the automatic fixes.
+- `npm run lint -- <file>` checks specific files.
